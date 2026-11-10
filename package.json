@@ -2,5 +2,23 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.3.5",
     "tailwindcss": "^4.3.5"
-  }
+  },
+  "name": "flowstart",
+  "version": "1.0.0",
+  "description": "Flowstart is a website built with a timer based off of the \"Flowtime Technique\" designed to help you focus and get started with your tasks; solely developed by Jazz.",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "npx @tailwindcss/cli -i ./src/input.css -o ./src/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhazmineaudrey/Flowstart.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jhazmineaudrey/Flowstart/issues"
+  },
+  "homepage": "https://github.com/jhazmineaudrey/Flowstart#readme"
 }
